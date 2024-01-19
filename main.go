@@ -119,7 +119,7 @@ loop:
 		select {
 		case <-tick.C:
 			mc := MintCount.Load()
-			if mc >= 4900 {
+			if mc >= 9999 {
 				c()
 				break loop
 			}
