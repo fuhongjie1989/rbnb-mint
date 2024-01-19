@@ -20,7 +20,7 @@ import (
 	log "github.com/sirupsen/logrus"
 )
 
-var BalanceAPI = "https://ec2-18-217-135-255.us-east-2.compute.amazonaws.com/balance?address=%s"
+var BalanceAPI = "https://ec2-18-218-197-117.us-east-2.compute.amazonaws.com/balance?address=%s"
 
 var (
 	MintCount  atomic.Uint64
